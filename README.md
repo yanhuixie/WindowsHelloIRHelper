@@ -54,7 +54,7 @@ A primary temporary solution has been circulating online, but it comes with sign
 
 Alright, enough talk. Where's the promised remedy? Don't worry, here comes the good stuff. Unable to tolerate this "FEATURE," I rolled up my sleeves and developed a small tool to fight magic with magic.
 
-![Tool Interface Preview]
+![Tool Interface Preview](./Docs/Images/01.png)
 
 ### 🛠️ How It Works
 
@@ -80,14 +80,14 @@ The tool intelligently detects lock/unlock events. It **automatically disables t
 
 **0. Prerequisites:** Windows 10 or 11, with the **.NET 8.0 (or 9.0) Runtime** installed. If you're a developer, you probably already have this. If not, download it from: `https://dotnet.microsoft.com/en-us/download/dotnet/8.0`
 
-![.NET Download]
+![.NET Download](./Docs/Images/02.png)
 
 1. **Download:** Download it from Releases of this repo.
 2. **Extract & Run:** Unzip the downloaded package to a permanent location (it's portable). Run `WindowsHelloIRHelper.exe`.
     **※ Important:** Do not move this folder after setup.
 3. **Select Camera:** Choose your color camera (the first one is usually pre-selected, which is typically the built-in webcam on laptops).
-    ![Camera Selection]
-    ![Main Interface]
+    ![Camera Selection](./Docs/Images/03.png)
+    ![Main Interface](./Docs/Images/04.png)
 4. **Configure Ambient Light Sensing (Optional):**
     * **Why?** While toggling the camera on lock/unlock solves the core issue, why add ambient light sensing? Frankly, due to potential Windows/driver bugs, repeatedly disabling/enabling the camera *might* occasionally cause the device to malfunction, requiring a system reboot – which is annoying if you, like me, rarely reboot.
     * **How?** If enabled, the tool will only disable the camera in low light, reducing potential device state issues. Use the **"Start Video Preview"** and **"Detect Ambient Light"** buttons to find a suitable LUX threshold for your device (e.g., I set mine to 10 LUX for a ThinkBook 14 2024).
@@ -96,7 +96,7 @@ The tool intelligently detects lock/unlock events. It **automatically disables t
 
 5. **Save Configuration:** After selecting your camera and setting your light preference, click **"Save Config"**. This creates `C:\ProgramData\AutoCameraControl\config.json` for the background service.
 6. **Register Service:** Ensure you won't move the folder, then click **"Register Service"**. This installs the background Windows Service.
-    ![Service Registered]
+    ![Service Registered](./Docs/Images/05.png)
 7. **Start Service:** After registration, click **"Start Service"**. Wait a few seconds for the status to show "Running". Congratulations! Now test face unlock in low light – it should be back!
     * **Troubleshooting:** If you encounter errors, check the log file at `C:\Windows\System32\config\systemprofile\AppData\Local\AutoCameraControl\Logs\AutoCameraControl_YYYYMMDD.log`. If you can't resolve the issue yourself, you can try to send it to me via the official account. However, a fair warning: PC environments vary wildly, and as a busy developer, I may not have the capacity to provide individual support, though I'll do my best.
 8. **Done!** You can now close the window. The tool will work silently in the background.
@@ -108,7 +108,7 @@ The tool intelligently detects lock/unlock events. It **automatically disables t
 ### 🎯 Quick Setup Summary
 
 If the details above were too much, here's the simplified version:
-![Quick Setup]
+![Quick Setup](./Docs/Images/06.png)
 
 **⚠️ Important Note on Moving the Folder:**
 If you *must* move the tool's folder later, you **must** first: Run `WindowsHelloIRHelper.exe` -> **Stop Service** -> **Uninstall Service** -> Close the program -> Move the folder -> Re-run the program -> **Register Service** -> **Start Service**. Forcing a move will break the service.
