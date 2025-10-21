@@ -55,6 +55,9 @@ A primary temporary solution has been circulating online, but it comes with sign
 Alright, enough talk. Where's the promised remedy? Don't worry, here comes the good stuff. Unable to tolerate this "FEATURE," I rolled up my sleeves and developed a small tool to fight magic with magic.
 
 ![Tool Interface Preview](./Docs/Images/01.png)
+Oh, this pic above is out, there is also an i18n new version (1.0.0).
+
+![Tool Interface Preview](./Docs/Images/i18n.png)
 
 ### 🛠️ How It Works
 
