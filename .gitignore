@@ -1,0 +1,293 @@
+# .NET Core 和 Visual Studio 构建输出
+bin/
+obj/
+out/
+
+# Visual Studio 用户特定文件
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 代码覆盖率结果
+*.coverage
+*.coveragexml
+
+# 测试结果
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# 文件由 Visual Studio 构建
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio 缓存文件
+.vs/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Windows 图像文件缓存
+Thumbs.db
+ehthumbs.db
+
+# 文件夹配置文件
+Desktop.ini
+
+# 回收站
+$RECYCLE.BIN/
+
+# Windows 快捷方式
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# NuGet 包
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# NuGet 符号包
+*.snupkg
+
+# NuGet v3 的 project.json 文件
+project.lock.json
+project.fragment.lock.json
+
+# 发布配置文件
+PublishProfiles/
+
+# Microsoft Azure Web App 发布设置
+*.azurePubxml
+
+# 用户特定文件
+*.suo
+*.user
+*.sln.docstates
+
+# 构建结果
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 性能分析器
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# TFS 2012 本地工作区
+$tf/
+
+# 自动备份文件
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+
+# SQL Server 文件
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence 项目
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# GhostDoc 插件设置文件
+*.GhostDoc.xml
+
+# Node.js 工具
+node_modules/
+
+# TypeScript 编译输出
+*.js.map
+
+# Visual Studio 6 构建日志
+*.plg
+
+# Visual Studio 6 工作区选项文件
+*.opt
+
+# Visual Studio 6 自动生成的工作区文件
+*.vbw
+
+# Visual Studio LightSwitch 构建输出
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Paket 依赖管理器
+.paket/paket.exe
+paket-files/
+
+# FAKE - F# Make
+.fake/
+
+# CodeRush 个人设置
+.cr/personal
+
+# Python 工具
+__pycache__/
+*.pyc
+
+# Cake - 取消注释如果你使用它
+# tools/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Telerik's JustMock 配置文件
+*.jmconfig
+
+# BizTalk 构建输出
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# OpenCover UI 分析结果
+OpenCover/
+
+# Azure Stream Analytics 本地运行输出
+ASALocalRun/
+
+# MSBuild 二进制和结构化日志
+*.binlog
+
+# NVidia Nsight GPU 调试器配置文件
+*.nvuser
+
+# MFractors (Xamarin 生产力工具) 工作文件夹
+.mfractor/
+
+# Local History for Visual Studio
+.localhistory/
+
+# BeatPulse 健康检查临时数据库
+healthchecksdb
+
+# Backup 文件夹
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# Ionide (跨平台 F# VS Code 工具) 工作文件夹
+.ionide/
+
+# Fody - 自动生成的 XML schema
+FodyWeavers.xsd
+
+# VS Code 文件
+.history/
+
+# Rider
+.idea/
+
+# 用户特定文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono 自动生成的文件
+mono_crash.*
+
+# Windows Installer 文件
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows 快捷方式
+*.lnk

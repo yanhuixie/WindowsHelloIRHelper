@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UI_Form1_Title" xml:space="preserve">
+    <value>Windows Hello IR Helper</value>
+  </data>
+  <data name="UI_Form1_WelcomeMessage" xml:space="preserve">
+    <value>欢迎使用 Windows Hello IR Helper</value>
+  </data>
+  <data name="UI_Form1_FunctionDescription" xml:space="preserve">
+    <value>功能说明：</value>
+  </data>
+  <data name="UI_Form1_Feature1" xml:space="preserve">
+    <value>1. 检测光亮度 - 读取环境光线传感器数据</value>
+  </data>
+  <data name="UI_Form1_Feature2" xml:space="preserve">
+    <value>2. 启用/禁用摄像头 - 控制集成摄像头设备状态</value>
+  </data>
+  <data name="Status_LightSensorAvailable" xml:space="preserve">
+    <value>✓ 光线传感器可用</value>
+  </data>
+  <data name="Status_LightSensorNotDetected" xml:space="preserve">
+    <value>✗ 未检测到光线传感器</value>
+  </data>
+  <data name="Status_RunningAsAdmin" xml:space="preserve">
+    <value>✓ 以管理员权限运行</value>
+  </data>
+  <data name="Status_NotRunningAsAdmin" xml:space="preserve">
+    <value>⚠ 未以管理员权限运行</value>
+  </data>
+  <data name="Status_AdminRequiredHint" xml:space="preserve">
+    <value>  提示：摄像头控制功能需要管理员权限</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>准备就绪，请选择功能</value>
+  </data>
+  <data name="UI_Form1_WindowTitle" xml:space="preserve">
+    <value>Windows Hello IR Helper - 自动摄像头控制</value>
+  </data>
+  <data name="UI_Form1_GroupConfig" xml:space="preserve">
+    <value>参数配置</value>
+  </data>
+  <data name="UI_Form1_CheckEnableLightSensor" xml:space="preserve">
+    <value>启用环境光感知</value>
+  </data>
+  <data name="UI_Form1_LabelThreshold" xml:space="preserve">
+    <value>光亮度阈值(lux):</value>
+  </data>
+  <data name="UI_Form1_ButtonSaveConfig" xml:space="preserve">
+    <value>保存配置</value>
+  </data>
+  <data name="UI_Form1_ButtonResetConfig" xml:space="preserve">
+    <value>重置配置</value>
+  </data>
+  <data name="UI_Form1_LabelCameraList" xml:space="preserve">
+    <value>选择摄像头:</value>
+  </data>
+  <data name="UI_Form1_ButtonRefreshCameras" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="UI_Form1_ButtonToggleCamera" xml:space="preserve">
+    <value>启用/禁用</value>
+  </data>
+  <data name="UI_Form1_LabelCameraStatus" xml:space="preserve">
+    <value>状态: 未知</value>
+  </data>
+  <data name="UI_Form1_ButtonDetectLight" xml:space="preserve">
+    <value>检测环境光亮度</value>
+  </data>
+  <data name="UI_Form1_ButtonPreview" xml:space="preserve">
+    <value>开始预览视频</value>
+  </data>
+  <data name="UI_Form1_GroupService" xml:space="preserve">
+    <value>服务管理</value>
+  </data>
+  <data name="UI_Form1_LabelServiceStatus" xml:space="preserve">
+    <value>服务状态: 未知</value>
+  </data>
+  <data name="UI_Form1_ButtonInstallService" xml:space="preserve">
+    <value>注册服务</value>
+  </data>
+  <data name="UI_Form1_ButtonUninstallService" xml:space="preserve">
+    <value>卸载服务</value>
+  </data>
+  <data name="UI_Form1_ButtonStartService" xml:space="preserve">
+    <value>启动服务</value>
+  </data>
+  <data name="UI_Form1_ButtonStopService" xml:space="preserve">
+    <value>停止服务</value>
+  </data>
+  <data name="UI_Form1_GroupStatus" xml:space="preserve">
+    <value>状态信息</value>
+  </data>
+  <data name="UI_Form1_ButtonClearStatus" xml:space="preserve">
+    <value>清空日志</value>
+  </data>
+  <data name="UI_Form1_ButtonShowHistory" xml:space="preserve">
+    <value>操作历史</value>
+  </data>
+  <data name="UI_Form1_ButtonShowSystemStatus" xml:space="preserve">
+    <value>系统状态</value>
+  </data>
+  <data name="UI_Form1_ButtonExportConfig" xml:space="preserve">
+    <value>导出配置</value>
+  </data>
+  <data name="UI_Form1_ButtonImportConfig" xml:space="preserve">
+    <value>导入配置</value>
+  </data>
+  <data name="UI_Form1_GroupHelp" xml:space="preserve">
+    <value>获取帮助 (微信)</value>
+  </data>
+  <data name="Status_DetectingLight" xml:space="preserve">
+    <value>正在检测环境光亮度...</value>
+  </data>
+  <data name="Status_LightValue" xml:space="preserve">
+    <value>光亮度: {0:F2} lux</value>
+  </data>
+  <data name="Status_ErrorCannotGetLight" xml:space="preserve">
+    <value>错误: 无法获取光亮度数据</value>
+  </data>
+  <data name="Status_Exception" xml:space="preserve">
+    <value>异常: {0}</value>
+  </data>
+  <data name="Status_ErrorSelectCamera" xml:space="preserve">
+    <value>错误: 请先选择要控制的摄像头设备</value>
+  </data>
+  <data name="Status_ErrorAdminRequired" xml:space="preserve">
+    <value>错误: 需要管理员权限才能控制摄像头设备</value>
+  </data>
+  <data name="Status_RunAsAdmin" xml:space="preserve">
+    <value>请以管理员身份运行此应用程序</value>
+  </data>
+  <data name="Status_TogglingCamera" xml:space="preserve">
+    <value>正在切换摄像头状态: {0}</value>
+  </data>
+  <data name="Status_CameraDisabledPreviewStopped" xml:space="preserve">
+    <value>摄像头已禁用，视频预览已停止</value>
+  </data>
+  <data name="Status_CameraStateChanged" xml:space="preserve">
+    <value>摄像头 {0} {1}</value>
+  </data>
+  <data name="Status_CameraEnabled" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="Status_CameraDisabled" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="Status_OperationFailed" xml:space="preserve">
+    <value>操作失败: 请检查设备权限和状态</value>
+  </data>
+  <data name="Status_EnumeratingCameras" xml:space="preserve">
+    <value>正在枚举摄像头设备...</value>
+  </data>
+  <data name="Status_EnumerationComplete" xml:space="preserve">
+    <value>枚举完成，共找到 {0} 个设备</value>
+  </data>
+  <data name="Status_NoCamerasFound" xml:space="preserve">
+    <value>⚠ 未找到可用的摄像头设备</value>
+  </data>
+  <data name="Status_PossibleReasons" xml:space="preserve">
+    <value>  可能原因:</value>
+  </data>
+  <data name="Status_Reason1" xml:space="preserve">
+    <value>  1. 系统中没有摄像头设备</value>
+  </data>
+  <data name="Status_Reason2" xml:space="preserve">
+    <value>  2. 摄像头驱动未正确安装</value>
+  </data>
+  <data name="Status_DeviceList" xml:space="preserve">
+    <value>设备列表:</value>
+  </data>
+  <data name="Status_DeviceItem" xml:space="preserve">
+    <value>  - {0} ({1})</value>
+  </data>
+  <data name="Status_SelectedConfiguredCamera" xml:space="preserve">
+    <value>已选择配置中指定的摄像头: {0}</value>
+  </data>
+  <data name="Status_SelectedIntegratedCamera" xml:space="preserve">
+    <value>已自动选择集成摄像头: {0}</value>
+  </data>
+  <data name="Status_CameraListLoaded" xml:space="preserve">
+    <value>✓ 摄像头列表加载完成</value>
+  </data>
+  <data name="Status_LoadCameraListFailed" xml:space="preserve">
+    <value>✗ 加载摄像头列表失败: {0}</value>
+  </data>
+  <data name="Status_ExceptionType" xml:space="preserve">
+    <value>  异常类型: {0}</value>
+  </data>
+  <data name="Status_InnerException" xml:space="preserve">
+    <value>  内部异常: {0}</value>
+  </data>
+  <data name="Status_StackTrace" xml:space="preserve">
+    <value>  堆栈跟踪: {0}</value>
+  </data>
+  <data name="Status_RefreshingCameraList" xml:space="preserve">
+    <value>正在刷新摄像头列表...</value>
+  </data>
+  <data name="Status_CameraListRefreshed" xml:space="preserve">
+    <value>摄像头列表刷新完成</value>
+  </data>
+  <data name="Status_LightSensorStateChanged" xml:space="preserve">
+    <value>环境光传感器已{0}</value>
+  </data>
+  <data name="Status_Enabled" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="Status_Disabled" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="Status_LogCleared" xml:space="preserve">
+    <value>状态日志已清空</value>
+  </data>
+  <data name="Status_SavingConfig" xml:space="preserve">
+    <value>正在保存配置...</value>
+  </data>
+  <data name="Status_ConfigSaved" xml:space="preserve">
+    <value>配置保存成功</value>
+  </data>
+  <data name="Status_StartPreview" xml:space="preserve">
+    <value>开始预览摄像头: {0}</value>
+  </data>
+  <data name="Status_StopPreview" xml:space="preserve">
+    <value>已停止预览摄像头: {0}</value>
+  </data>
+  <data name="Status_ErrorSelectCameraForPreview" xml:space="preserve">
+    <value>错误: 请先选择要预览的摄像头设备</value>
+  </data>
+  <data name="UI_Button_StartPreview" xml:space="preserve">
+    <value>开始预览视频</value>
+  </data>
+  <data name="UI_Button_StopPreview" xml:space="preserve">
+    <value>关闭预览视频</value>
+  </data>
+  <data name="UI_Button_EnableCamera" xml:space="preserve">
+    <value>启用摄像头</value>
+  </data>
+  <data name="UI_Button_DisableCamera" xml:space="preserve">
+    <value>禁用摄像头</value>
+  </data>
+  <data name="Message_ConfirmResetConfig" xml:space="preserve">
+    <value>确定要重置配置到默认值吗？
+
+这将覆盖当前的所有配置设置。</value>
+  </data>
+  <data name="Message_ConfirmResetConfigTitle" xml:space="preserve">
+    <value>确认重置配置</value>
+  </data>
+  <data name="Message_ConfirmUninstallService" xml:space="preserve">
+    <value>确定要卸载Windows服务吗？
+
+卸载后服务将从系统中完全移除。</value>
+  </data>
+  <data name="Message_ConfirmUninstallServiceTitle" xml:space="preserve">
+    <value>确认卸载服务</value>
+  </data>
+  <data name="Status_ResettingConfig" xml:space="preserve">
+    <value>正在重置配置...</value>
+  </data>
+  <data name="Status_ConfigReset" xml:space="preserve">
+    <value>配置已重置为默认值</value>
+  </data>
+  <data name="Status_InstallingService" xml:space="preserve">
+    <value>正在注册Windows服务...</value>
+  </data>
+  <data name="Status_ServiceInstalled" xml:space="preserve">
+    <value>服务注册成功！</value>
+  </data>
+  <data name="Status_ServiceInstallFailed" xml:space="preserve">
+    <value>服务注册失败: {0}</value>
+  </data>
+  <data name="Status_Details" xml:space="preserve">
+    <value>详细信息: {0}</value>
+  </data>
+  <data name="Status_UninstallingService" xml:space="preserve">
+    <value>正在卸载Windows服务...</value>
+  </data>
+  <data name="Status_ServiceUninstalled" xml:space="preserve">
+    <value>服务卸载成功！</value>
+  </data>
+  <data name="Status_ServiceUninstallFailed" xml:space="preserve">
+    <value>服务卸载失败: {0}</value>
+  </data>
+  <data name="Status_StartingService" xml:space="preserve">
+    <value>正在启动Windows服务...</value>
+  </data>
+  <data name="Status_ServiceStarted" xml:space="preserve">
+    <value>服务启动成功！</value>
+  </data>
+  <data name="Status_ServiceStartFailed" xml:space="preserve">
+    <value>服务启动失败</value>
+  </data>
+  <data name="Status_StoppingService" xml:space="preserve">
+    <value>正在停止Windows服务...</value>
+  </data>
+  <data name="Status_ServiceStopped" xml:space="preserve">
+    <value>服务停止成功！</value>
+  </data>
+  <data name="Status_ServiceStopFailed" xml:space="preserve">
+    <value>服务停止失败</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gongzhonghao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\gongzhonghao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_CameraStatusNoDevice" xml:space="preserve">
+    <value>状态: 未找到设备</value>
+  </data>
+  <data name="Status_CameraStatusLoadFailed" xml:space="preserve">
+    <value>状态: 加载失败</value>
+  </data>
+  <data name="Status_CameraStatusNotSelected" xml:space="preserve">
+    <value>状态: 未选择</value>
+  </data>
+  <data name="Status_CameraStatusQueryFailed" xml:space="preserve">
+    <value>状态: 查询失败</value>
+  </data>
+  <data name="Status_QueryCameraStatusFailed" xml:space="preserve">
+    <value>查询摄像头状态失败: {0}</value>
+  </data>
+  <data name="Status_ServiceNotInstalled" xml:space="preserve">
+    <value>未安装</value>
+  </data>
+  <data name="Status_ServiceRunning" xml:space="preserve">
+    <value>运行中</value>
+  </data>
+  <data name="Status_ServiceStopped_State" xml:space="preserve">
+    <value>已停止</value>
+  </data>
+  <data name="Status_ServiceStartPending" xml:space="preserve">
+    <value>启动中</value>
+  </data>
+  <data name="Status_ServiceStopPending" xml:space="preserve">
+    <value>停止中</value>
+  </data>
+  <data name="Status_ServicePaused" xml:space="preserve">
+    <value>已暂停</value>
+  </data>
+  <data name="Status_ServiceUnknown" xml:space="preserve">
+    <value>未知状态</value>
+  </data>
+  <data name="Status_ServiceStatusLabel" xml:space="preserve">
+    <value>服务状态: {0}</value>
+  </data>
+  <data name="Status_ServiceAdminRequired" xml:space="preserve">
+    <value> (需要管理员权限)</value>
+  </data>
+  <data name="Status_ServiceStatusQueryFailed" xml:space="preserve">
+    <value>服务状态: 查询失败</value>
+  </data>
+  <data name="Status_QueryServiceStatusFailed" xml:space="preserve">
+    <value>查询服务状态失败: {0}</value>
+  </data>
+  <data name="Status_CameraStatusLabel" xml:space="preserve">
+    <value>状态: {0}</value>
+  </data>
+  <data name="UI_CameraList_Integrated" xml:space="preserve">
+    <value>[集成] {0}</value>
+  </data>
+  <data name="UI_CameraList_NoCameraFound" xml:space="preserve">
+    <value>未找到摄像头设备</value>
+  </data>
+  <data name="UI_CameraList_LoadFailed" xml:space="preserve">
+    <value>加载失败</value>
+  </data>
+  <data name="Status_ExportingConfig" xml:space="preserve">
+    <value>正在导出配置...</value>
+  </data>
+  <data name="Status_ConfigExported" xml:space="preserve">
+    <value>配置已导出到: {0}</value>
+  </data>
+  <data name="Status_ExportConfigFailed" xml:space="preserve">
+    <value>导出配置失败: {0}</value>
+  </data>
+  <data name="Status_ImportingConfig" xml:space="preserve">
+    <value>正在导入配置...</value>
+  </data>
+  <data name="Status_ImportFailed_InvalidFormat" xml:space="preserve">
+    <value>导入失败: 配置文件格式无效</value>
+  </data>
+  <data name="Status_ConfigImported" xml:space="preserve">
+    <value>配置已从文件导入: {0}</value>
+  </data>
+  <data name="Status_ImportConfigFailed" xml:space="preserve">
+    <value>导入配置失败: {0}</value>
+  </data>
+  <data name="Status_OperationHistoryHeader" xml:space="preserve">
+    <value>=== 操作历史记录 ===</value>
+  </data>
+  <data name="Status_NoRecentOperations" xml:space="preserve">
+    <value>未找到最近的操作记录</value>
+  </data>
+  <data name="Status_RecentOperations" xml:space="preserve">
+    <value>最近24小时内的操作记录 ({0} 条):</value>
+  </data>
+  <data name="Status_OperationHistoryFooter" xml:space="preserve">
+    <value>=== 历史记录结束 ===</value>
+  </data>
+  <data name="Status_ReadHistoryFailed" xml:space="preserve">
+    <value>读取操作历史记录失败: {0}</value>
+  </data>
+  <data name="Status_SystemStatusHeader" xml:space="preserve">
+    <value>=== 系统状态报告 ===</value>
+  </data>
+  <data name="Status_ServiceStatusSimplified" xml:space="preserve">
+    <value>服务状态: 简化版本</value>
+  </data>
+  <data name="Status_AdminRights" xml:space="preserve">
+    <value>管理员权限: {0}</value>
+  </data>
+  <data name="Status_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="Status_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Status_AvailableCameras" xml:space="preserve">
+    <value>可用摄像头: {0} 个</value>
+  </data>
+  <data name="Status_IntegratedCameras" xml:space="preserve">
+    <value>  集成摄像头: {0} 个</value>
+  </data>
+  <data name="Status_ExternalCameras" xml:space="preserve">
+    <value>  外接摄像头: {0} 个</value>
+  </data>
+  <data name="Status_CurrentSelection" xml:space="preserve">
+    <value>  当前选择: {0} ({1})</value>
+  </data>
+  <data name="Status_LightSensor" xml:space="preserve">
+    <value>光线传感器: {0}</value>
+  </data>
+  <data name="Status_Available" xml:space="preserve">
+    <value>可用</value>
+  </data>
+  <data name="Status_NotAvailable" xml:space="preserve">
+    <value>不可用</value>
+  </data>
+  <data name="Status_WorkingMode" xml:space="preserve">
+    <value>工作模式: 锁屏状态监控（锁屏禁用非红外摄像头，解锁再启用）</value>
+  </data>
+  <data name="Status_AmbientLightSensor" xml:space="preserve">
+    <value>环境光传感器: {0}</value>
+  </data>
+  <data name="Status_LightThreshold" xml:space="preserve">
+    <value>  光亮度阈值: {0} lux</value>
+  </data>
+  <data name="Status_SystemStatusFooter" xml:space="preserve">
+    <value>=== 状态报告结束 ===</value>
+  </data>
+  <data name="Status_GenerateStatusReportFailed" xml:space="preserve">
+    <value>生成系统状态报告失败: {0}</value>
+  </data>
+  <data name="Status_RefreshServiceStatusFailed" xml:space="preserve">
+    <value>刷新服务状态失败: {0}</value>
+  </data>
+  <data name="Status_InitUIFailed" xml:space="preserve">
+    <value>初始化界面失败: {0}</value>
+  </data>
+  <data name="Status_UpdateConfigUIFailed" xml:space="preserve">
+    <value>更新配置界面失败: {0}</value>
+  </data>
+  <data name="Dialog_ExportConfig_Title" xml:space="preserve">
+    <value>导出配置文件</value>
+  </data>
+  <data name="Dialog_ExportConfig_Filter" xml:space="preserve">
+    <value>JSON文件 (*.json)|*.json|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="Dialog_ImportConfig_Title" xml:space="preserve">
+    <value>导入配置文件</value>
+  </data>
+  <data name="Dialog_ImportConfig_Filter" xml:space="preserve">
+    <value>JSON文件 (*.json)|*.json|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="EventLog_Level_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="EventLog_Level_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="EventLog_Level_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Status_TestingSCCommand" xml:space="preserve">
+    <value>正在测试SC命令描述语法...</value>
+  </data>
+  <data name="Status_TestResult" xml:space="preserve">
+    <value>测试结果:</value>
+  </data>
+  <data name="Status_VerifyingServiceDescription" xml:space="preserve">
+    <value>验证当前服务描述:</value>
+  </data>
+  <data name="Status_CurrentDescription" xml:space="preserve">
+    <value>当前描述: {0}</value>
+  </data>
+  <data name="Status_NoDescriptionSet" xml:space="preserve">
+    <value>未设置描述</value>
+  </data>
+  <data name="Status_ServiceNotInstalledOrQueryFailed" xml:space="preserve">
+    <value>服务未安装或查询失败</value>
+  </data>
+  <data name="Status_QueryDescriptionFailed" xml:space="preserve">
+    <value>查询描述失败: {0}</value>
+  </data>
+  <data name="Status_PreviewStarted" xml:space="preserve">
+    <value>已开始预览摄像头: {0}</value>
+  </data>
+  <data name="Status_InitVideoPreviewFailed" xml:space="preserve">
+    <value>初始化视频预览失败: {0}</value>
+  </data>
+  <data name="Status_StopVideoPreviewException" xml:space="preserve">
+    <value>停止视频预览异常: {0}</value>
+  </data>
+  <data name="Message_ApplicationStartupFailed" xml:space="preserve">
+    <value>应用程序启动失败:
+{0}</value>
+  </data>
+  <data name="Message_ApplicationStartupFailedTitle" xml:space="preserve">
+    <value>启动错误</value>
+  </data>
+  <data name="Log_EventLogger_InitSuccess" xml:space="preserve">
+    <value>事件日志记录器初始化成功</value>
+  </data>
+  <data name="Log_EventLogger_InitFailed" xml:space="preserve">
+    <value>无法初始化Windows事件日志，将使用备用文件日志。错误: {0}</value>
+  </data>
+  <data name="Log_EventLogger_ExceptionDetails" xml:space="preserve">
+    <value>{0}
+异常详情: {1}</value>
+  </data>
+  <data name="Log_EventLogger_EventLogWriteFailed" xml:space="preserve">
+    <value>{0}
+注意: Windows事件日志写入失败，已切换到文件日志。错误: {1}</value>
+  </data>
+  <data name="Log_EventLogger_FileWriteFailed" xml:space="preserve">
+    <value>日志写入失败 - EventId: {0}, Message: {1}, Error: {2}</value>
+  </data>
+  <data name="Log_Service_Starting" xml:space="preserve">
+    <value>服务启动中...</value>
+  </data>
+  <data name="Log_Service_ConfigError" xml:space="preserve">
+    <value>配置文件错误，未找到可用的摄像头设备</value>
+  </data>
+  <data name="Log_Service_InsufficientPermissions" xml:space="preserve">
+    <value>服务需要管理员权限才能控制摄像头设备</value>
+  </data>
+  <data name="Log_Service_PermissionsRequired" xml:space="preserve">
+    <value>需要管理员权限</value>
+  </data>
+  <data name="Log_Service_StartSuccess" xml:space="preserve">
+    <value>服务启动成功，摄像头设备ID: {0}</value>
+  </data>
+  <data name="Log_Service_StartFailed" xml:space="preserve">
+    <value>服务启动失败: {0}</value>
+  </data>
+  <data name="Log_Service_Stopping" xml:space="preserve">
+    <value>服务停止中...</value>
+  </data>
+  <data name="Log_Service_Stopped" xml:space="preserve">
+    <value>服务已停止</value>
+  </data>
+  <data name="Log_Service_SessionChange" xml:space="preserve">
+    <value>检测到会话变化: {0}</value>
+  </data>
+  <data name="Log_Service_SessionChangeException" xml:space="preserve">
+    <value>处理会话变化时发生异常: {0}</value>
+  </data>
+  <data name="Log_Service_HandleLockScreen" xml:space="preserve">
+    <value>处理锁屏事件</value>
+  </data>
+  <data name="Log_Service_LightSufficient" xml:space="preserve">
+    <value>光亮度充足({0:F1} lux)，不禁用摄像头</value>
+  </data>
+  <data name="Log_Service_CameraDisabled" xml:space="preserve">
+    <value>摄像头已禁用（锁屏）</value>
+  </data>
+  <data name="Log_Service_CameraDisableFailed" xml:space="preserve">
+    <value>禁用摄像头失败</value>
+  </data>
+  <data name="Log_Service_HandleLockException" xml:space="preserve">
+    <value>处理锁屏事件时发生异常: {0}</value>
+  </data>
+  <data name="Log_Service_HandleUnlock" xml:space="preserve">
+    <value>处理解锁事件</value>
+  </data>
+  <data name="Log_Service_CameraEnabled" xml:space="preserve">
+    <value>摄像头已启用（解锁）</value>
+  </data>
+  <data name="Log_Service_CameraEnableFailed" xml:space="preserve">
+    <value>启用摄像头失败</value>
+  </data>
+  <data name="Log_Service_HandleUnlockException" xml:space="preserve">
+    <value>处理解锁事件时发生异常: {0}</value>
+  </data>
+  <data name="Log_ServiceManager_AdminRequired" xml:space="preserve">
+    <value>需要管理员权限才能注册服务。请以管理员身份运行程序。</value>
+  </data>
+  <data name="Log_ServiceManager_AlreadyInstalled" xml:space="preserve">
+    <value>服务已经安装。如需重新安装，请先卸载现有服务。</value>
+  </data>
+  <data name="Log_ServiceManager_CannotDetermineExePath" xml:space="preserve">
+    <value>无法确定当前可执行文件路径。</value>
+  </data>
+  <data name="Log_ServiceManager_InstallFailed" xml:space="preserve">
+    <value>服务注册失败：{0}
+
+可能的解决方案：
+• 确保以管理员身份运行
+• 检查Windows服务管理器是否可访问
+• 确保.NET运行时已正确安装
+• 检查防病毒软件是否阻止了操作</value>
+  </data>
+  <data name="Log_ServiceManager_UninstallAdminRequired" xml:space="preserve">
+    <value>需要管理员权限才能卸载服务。请以管理员身份运行程序。</value>
+  </data>
+  <data name="Log_ServiceManager_NotInstalled" xml:space="preserve">
+    <value>服务未安装，无需卸载。</value>
+  </data>
+  <data name="Log_ServiceManager_UninstallFailed" xml:space="preserve">
+    <value>服务卸载失败：{0}
+
+可能的解决方案：
+• 确保以管理员身份运行
+• 先手动停止服务
+• 通过服务管理器手动删除服务
+• 重启计算机后重试</value>
+  </data>
+  <data name="Log_ServiceManager_StartNotInstalled" xml:space="preserve">
+    <value>服务未安装，无法启动。请先注册服务。</value>
+  </data>
+  <data name="Log_ServiceManager_AlreadyRunning" xml:space="preserve">
+    <value>服务已经在运行中。</value>
+  </data>
+  <data name="Log_ServiceManager_StartPending" xml:space="preserve">
+    <value>服务正在启动中，请稍候...</value>
+  </data>
+  <data name="Log_ServiceManager_StartSuccess" xml:space="preserve">
+    <value>服务启动成功！</value>
+  </data>
+  <data name="Log_ServiceManager_StartTimeout" xml:space="preserve">
+    <value>服务启动超时。服务可能正在启动中，请稍后检查服务状态。</value>
+  </data>
+  <data name="Log_ServiceManager_StartFailed" xml:space="preserve">
+    <value>服务启动失败：{0}
+
+可能的解决方案：
+• 检查Windows事件日志获取详细错误信息
+• 确保服务配置正确
+• 重启计算机后重试</value>
+  </data>
+  <data name="Log_ServiceManager_StopNotInstalled" xml:space="preserve">
+    <value>服务未安装。</value>
+  </data>
+  <data name="Log_ServiceManager_AlreadyStopped" xml:space="preserve">
+    <value>服务已经停止。</value>
+  </data>
+  <data name="Log_ServiceManager_StopPending" xml:space="preserve">
+    <value>服务正在停止中，请稍候...</value>
+  </data>
+  <data name="Log_ServiceManager_CannotStop" xml:space="preserve">
+    <value>服务当前不能被停止</value>
+  </data>
+  <data name="Log_ServiceManager_StopSuccess" xml:space="preserve">
+    <value>服务停止成功！</value>
+  </data>
+  <data name="Log_ServiceManager_StopTimeout" xml:space="preserve">
+    <value>服务停止超时。服务可能正在停止中，请稍后检查服务状态。</value>
+  </data>
+  <data name="Log_ServiceManager_StopFailed" xml:space="preserve">
+    <value>服务停止失败：{0}
+可能的解决方案：
+• 等待服务自然停止
+• 通过任务管理器结束服务进程
+• 重启计算机</value>
+  </data>
+  <data name="Log_ServiceManager_RestartStopFailed" xml:space="preserve">
+    <value>重启失败：无法停止服务。{0}</value>
+  </data>
+  <data name="Log_ServiceManager_RestartStartFailed" xml:space="preserve">
+    <value>重启失败：无法启动服务。{0}</value>
+  </data>
+  <data name="Log_ServiceManager_RestartSuccess" xml:space="preserve">
+    <value>服务重启成功！</value>
+  </data>
+  <data name="Log_ServiceManager_RestartFailed" xml:space="preserve">
+    <value>服务重启失败：{0}</value>
+  </data>
+  <data name="Log_Exception_UnhandledFatal" xml:space="preserve">
+    <value>应用程序域发生致命未处理异常，程序即将终止</value>
+  </data>
+  <data name="Log_Exception_Unhandled" xml:space="preserve">
+    <value>应用程序域发生未处理异常</value>
+  </data>
+  <data name="Log_Exception_UnobservedTask" xml:space="preserve">
+    <value>检测到未观察到的任务异常</value>
+  </data>
+  <data name="Log_Exception_ProgramTerminating" xml:space="preserve">
+    <value>程序即将因未处理异常而终止: {0}</value>
+  </data>
+  <data name="Log_Exception_HandlerFailed" xml:space="preserve">
+    <value>全局异常处理器发生异常: {0}</value>
+  </data>
+  <data name="Log_Exception_TaskHandlerFailed" xml:space="preserve">
+    <value>任务异常处理器发生异常: {0}</value>
+  </data>
+  <data name="Log_Exception_OperationFailed" xml:space="preserve">
+    <value>执行操作 '{0}' 时发生异常</value>
+  </data>
+  <data name="Log_AdvancedInstaller_AdminRequired" xml:space="preserve">
+    <value>需要管理员权限才能安装服务。</value>
+  </data>
+  <data name="Log_AdvancedInstaller_FileNotFound" xml:space="preserve">
+    <value>服务可执行文件不存在: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_AlreadyInstalled" xml:space="preserve">
+    <value>服务已经安装。</value>
+  </data>
+  <data name="Log_AdvancedInstaller_InstallSuccess" xml:space="preserve">
+    <value>服务安装成功！
+
+服务信息：
+• 服务名称：{0}
+• 显示名称：{1}
+• 服务路径：{2}
+• 启动类型：自动
+• 运行账户：LocalSystem
+
+重要提醒：请勿移动当前文件夹，否则服务将无法正常运行。</value>
+  </data>
+  <data name="Log_AdvancedInstaller_InstallFailed" xml:space="preserve">
+    <value>服务安装失败: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_UninstallAdminRequired" xml:space="preserve">
+    <value>需要管理员权限才能卸载服务。</value>
+  </data>
+  <data name="Log_AdvancedInstaller_NotInstalled" xml:space="preserve">
+    <value>服务未安装。</value>
+  </data>
+  <data name="Log_AdvancedInstaller_UninstallSuccess" xml:space="preserve">
+    <value>服务卸载成功！
+
+服务已从系统中完全移除。
+现在可以安全地移动或删除程序文件。</value>
+  </data>
+  <data name="Log_AdvancedInstaller_UninstallFailed" xml:space="preserve">
+    <value>服务卸载失败: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ScCommandFailed" xml:space="preserve">
+    <value>SC命令执行失败 (退出代码: {0}): {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ScCommandException" xml:space="preserve">
+    <value>执行SC命令时发生异常: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_CannotStartProcess" xml:space="preserve">
+    <value>无法启动SC命令进程</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ScCommandSuccess" xml:space="preserve">
+    <value>SC命令执行成功</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ValidationFailed" xml:space="preserve">
+    <value>服务未安装</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ValidationSuccess" xml:space="preserve">
+    <value>服务安装验证完成:
+
+{0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ValidationException" xml:space="preserve">
+    <value>验证服务安装时发生异常: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ServiceStatus" xml:space="preserve">
+    <value>服务状态: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartupType" xml:space="preserve">
+    <value>启动类型: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_RunAccount" xml:space="preserve">
+    <value>运行账户: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ServicePath" xml:space="preserve">
+    <value>服务路径: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_FileExists" xml:space="preserve">
+    <value>✓ 服务可执行文件存在</value>
+  </data>
+  <data name="Log_AdvancedInstaller_FileNotExists" xml:space="preserve">
+    <value>✗ 服务可执行文件不存在或路径无效</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusRunning" xml:space="preserve">
+    <value>运行中</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusStopped" xml:space="preserve">
+    <value>已停止</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusPaused" xml:space="preserve">
+    <value>已暂停</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusStartPending" xml:space="preserve">
+    <value>启动中</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusStopPending" xml:space="preserve">
+    <value>停止中</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusPausePending" xml:space="preserve">
+    <value>暂停中</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusContinuePending" xml:space="preserve">
+    <value>恢复中</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusUnknown" xml:space="preserve">
+    <value>未知状态</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartTypeAutomatic" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartTypeManual" xml:space="preserve">
+    <value>手动</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartTypeDisabled" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartTypeUnknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Service_DisplayName" xml:space="preserve">
+    <value>自动摄像头控制服务</value>
+  </data>
+  <data name="Service_Description" xml:space="preserve">
+    <value>根据锁屏状态自动控制摄像头的启用/禁用状态</value>
+  </data>
+  <data name="Log_ServiceManager_ExePathEmpty" xml:space="preserve">
+    <value>可执行文件路径为空。</value>
+  </data>
+  <data name="Log_ServiceManager_ExeNotFound" xml:space="preserve">
+    <value>可执行文件不存在：{0}</value>
+  </data>
+  <data name="Log_ServiceManager_CannotReadExe" xml:space="preserve">
+    <value>无法读取可执行文件：{0}</value>
+  </data>
+  <data name="Log_ServiceManager_InvalidPathChars" xml:space="preserve">
+    <value>可执行文件路径包含无效字符。</value>
+  </data>
+  <data name="Log_ServiceManager_PathTooLong" xml:space="preserve">
+    <value>可执行文件路径过长（超过260字符）。</value>
+  </data>
+  <data name="Log_ServiceManager_PathValidationPassed" xml:space="preserve">
+    <value>可执行文件路径验证通过。</value>
+  </data>
+  <data name="Log_ServiceManager_PathValidationException" xml:space="preserve">
+    <value>验证可执行文件路径时发生异常：{0}</value>
+  </data>
+  <data name="Log_ServiceManager_UnsupportedPlatform" xml:space="preserve">
+    <value>不支持的操作系统平台</value>
+  </data>
+  <data name="Log_ServiceManager_RequiresVistaOrHigher" xml:space="preserve">
+    <value>需要Windows Vista或更高版本</value>
+  </data>
+  <data name="Log_ServiceManager_NetVersionWarning" xml:space="preserve">
+    <value>当前.NET版本：{0}，建议使用.NET 4.0或更高版本</value>
+  </data>
+  <data name="Log_ServiceManager_NotRunningAsAdminWarning" xml:space="preserve">
+    <value>当前未以管理员权限运行，安装/卸载服务需要管理员权限</value>
+  </data>
+  <data name="Log_ServiceManager_CannotAccessSCM" xml:space="preserve">
+    <value>无法访问服务控制管理器，可能需要管理员权限</value>
+  </data>
+  <data name="Log_ServiceManager_CannotAccessEventLog" xml:space="preserve">
+    <value>无法访问Windows事件日志，某些功能可能受限</value>
+  </data>
+  <data name="Log_ServiceManager_EnvironmentCheckComplete" xml:space="preserve">
+    <value>系统环境检查完成</value>
+  </data>
+  <data name="Log_ServiceManager_IssuesFound" xml:space="preserve">
+    <value>
+
+发现问题：
+• </value>
+  </data>
+  <data name="Log_ServiceManager_WarningsFound" xml:space="preserve">
+    <value>
+
+警告：
+• </value>
+  </data>
+  <data name="Log_ServiceManager_EnvironmentOK" xml:space="preserve">
+    <value>
+
+✓ 系统环境满足要求</value>
+  </data>
+  <data name="Log_ServiceManager_EnvironmentCheckException" xml:space="preserve">
+    <value>检查系统环境时发生异常：{0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_UnknownValue" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ServiceNotInstalledCannotTest" xml:space="preserve">
+    <value>服务未安装，无法测试</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestMethod1" xml:space="preserve">
+    <value>方法1 (标准语法): {0} - {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestMethod2" xml:space="preserve">
+    <value>方法2 (不加引号): {0} - {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestMethod3" xml:space="preserve">
+    <value>方法3 (config命令): {0} - {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestMethodException" xml:space="preserve">
+    <value>方法{0}异常: {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestSuccess" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestFailed" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="Log_Camera_EnumeratingDevices" xml:space="preserve">
+    <value>开始枚举摄像头设备</value>
+  </data>
+  <data name="Log_Camera_EnumerationError" xml:space="preserve">
+    <value>枚举摄像头设备时出错: {0}</value>
+  </data>
+  <data name="Log_Camera_AlreadyEnabled" xml:space="preserve">
+    <value>摄像头已是启用状态，无需操作: {0}</value>
+  </data>
+  <data name="Log_Camera_AlreadyDisabled" xml:space="preserve">
+    <value>摄像头已是禁用状态，无需操作: {0}</value>
+  </data>
+  <data name="Log_Camera_AdminRequired" xml:space="preserve">
+    <value>需要管理员权限</value>
+  </data>
+  <data name="Log_Camera_EmptyDeviceId" xml:space="preserve">
+    <value>设备ID为空</value>
+  </data>
+  <data name="Log_Camera_ActionEnable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="Log_Camera_ActionDisable" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="Log_Camera_ActionSuccess" xml:space="preserve">
+    <value>摄像头{0}成功: {1}</value>
+  </data>
+  <data name="Log_Camera_CommandFailedWithCode" xml:space="preserve">
+    <value>执行设备命令失败，退出码: {0}, 设备ID: {1}</value>
+  </data>
+  <data name="Log_Camera_CommandFailed" xml:space="preserve">
+    <value>执行设备命令失败: {0}</value>
+  </data>
+  <data name="Log_Config_SavedByUser" xml:space="preserve">
+    <value>用户通过界面保存配置</value>
+  </data>
+  <data name="Log_Config_SaveFailed" xml:space="preserve">
+    <value>保存配置失败</value>
+  </data>
+  <data name="Log_Config_ResetByUser" xml:space="preserve">
+    <value>用户通过界面重置配置</value>
+  </data>
+  <data name="Log_Config_ResetFailed" xml:space="preserve">
+    <value>重置配置失败</value>
+  </data>
+  <data name="Log_Config_ExportedByUser" xml:space="preserve">
+    <value>用户导出配置到: {0}</value>
+  </data>
+  <data name="Log_Config_ExportFailed" xml:space="preserve">
+    <value>导出配置失败</value>
+  </data>
+  <data name="Log_Config_ImportedByUser" xml:space="preserve">
+    <value>用户从文件导入配置: {0}</value>
+  </data>
+  <data name="Log_Config_ImportFailed" xml:space="preserve">
+    <value>导入配置失败</value>
+  </data>
+  <data name="Log_Config_LoadFailed" xml:space="preserve">
+    <value>加载配置失败: {0}</value>
+  </data>
+  <data name="Log_Config_SaveFailedWithError" xml:space="preserve">
+    <value>保存配置失败: {0}</value>
+  </data>
+</root>

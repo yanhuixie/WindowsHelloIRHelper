@@ -1,0 +1,1098 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UI_Form1_Title" xml:space="preserve">
+    <value>Windows Hello IR Helper</value>
+  </data>
+  <data name="UI_Form1_WelcomeMessage" xml:space="preserve">
+    <value>Welcome to Windows Hello IR Helper</value>
+  </data>
+  <data name="UI_Form1_FunctionDescription" xml:space="preserve">
+    <value>Features:</value>
+  </data>
+  <data name="UI_Form1_Feature1" xml:space="preserve">
+    <value>1. Detect Light - Read ambient light sensor data</value>
+  </data>
+  <data name="UI_Form1_Feature2" xml:space="preserve">
+    <value>2. Enable/Disable Camera - Control integrated camera device status</value>
+  </data>
+  <data name="Status_LightSensorAvailable" xml:space="preserve">
+    <value>✓ Light sensor available</value>
+  </data>
+  <data name="Status_LightSensorNotDetected" xml:space="preserve">
+    <value>✗ Light sensor not detected</value>
+  </data>
+  <data name="Status_RunningAsAdmin" xml:space="preserve">
+    <value>✓ Running with administrator privileges</value>
+  </data>
+  <data name="Status_NotRunningAsAdmin" xml:space="preserve">
+    <value>⚠ Not running with administrator privileges</value>
+  </data>
+  <data name="Status_AdminRequiredHint" xml:space="preserve">
+    <value>  Note: Camera control requires administrator privileges</value>
+  </data>
+  <data name="Status_Ready" xml:space="preserve">
+    <value>Ready, please select a function</value>
+  </data>
+  <data name="UI_Form1_WindowTitle" xml:space="preserve">
+    <value>Windows Hello IR Helper - Auto Camera Control</value>
+  </data>
+  <data name="UI_Form1_GroupConfig" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="UI_Form1_CheckEnableLightSensor" xml:space="preserve">
+    <value>Enable Ambient Light Sensing</value>
+  </data>
+  <data name="UI_Form1_LabelThreshold" xml:space="preserve">
+    <value>Light Threshold (lux):</value>
+  </data>
+  <data name="UI_Form1_ButtonSaveConfig" xml:space="preserve">
+    <value>Save Config</value>
+  </data>
+  <data name="UI_Form1_ButtonResetConfig" xml:space="preserve">
+    <value>Reset Config</value>
+  </data>
+  <data name="UI_Form1_LabelCameraList" xml:space="preserve">
+    <value>Select Camera:</value>
+  </data>
+  <data name="UI_Form1_ButtonRefreshCameras" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="UI_Form1_ButtonToggleCamera" xml:space="preserve">
+    <value>Enable/Disable</value>
+  </data>
+  <data name="UI_Form1_LabelCameraStatus" xml:space="preserve">
+    <value>Status: Unknown</value>
+  </data>
+  <data name="UI_Form1_ButtonDetectLight" xml:space="preserve">
+    <value>Detect Ambient Light</value>
+  </data>
+  <data name="UI_Form1_ButtonPreview" xml:space="preserve">
+    <value>Start Video Preview</value>
+  </data>
+  <data name="UI_Form1_GroupService" xml:space="preserve">
+    <value>Service Management</value>
+  </data>
+  <data name="UI_Form1_LabelServiceStatus" xml:space="preserve">
+    <value>Service Status: Unknown</value>
+  </data>
+  <data name="UI_Form1_ButtonInstallService" xml:space="preserve">
+    <value>Install Service</value>
+  </data>
+  <data name="UI_Form1_ButtonUninstallService" xml:space="preserve">
+    <value>Uninstall Service</value>
+  </data>
+  <data name="UI_Form1_ButtonStartService" xml:space="preserve">
+    <value>Start Service</value>
+  </data>
+  <data name="UI_Form1_ButtonStopService" xml:space="preserve">
+    <value>Stop Service</value>
+  </data>
+  <data name="UI_Form1_GroupStatus" xml:space="preserve">
+    <value>Status Information</value>
+  </data>
+  <data name="UI_Form1_ButtonClearStatus" xml:space="preserve">
+    <value>Clear Log</value>
+  </data>
+  <data name="UI_Form1_ButtonShowHistory" xml:space="preserve">
+    <value>Operation History</value>
+  </data>
+  <data name="UI_Form1_ButtonShowSystemStatus" xml:space="preserve">
+    <value>System Status</value>
+  </data>
+  <data name="UI_Form1_ButtonExportConfig" xml:space="preserve">
+    <value>Export Config</value>
+  </data>
+  <data name="UI_Form1_ButtonImportConfig" xml:space="preserve">
+    <value>Import Config</value>
+  </data>
+  <data name="UI_Form1_GroupHelp" xml:space="preserve">
+    <value>Get Help (Wechat)</value>
+  </data>
+  <data name="Status_DetectingLight" xml:space="preserve">
+    <value>Detecting ambient light...</value>
+  </data>
+  <data name="Status_LightValue" xml:space="preserve">
+    <value>Light level: {0:F2} lux</value>
+  </data>
+  <data name="Status_ErrorCannotGetLight" xml:space="preserve">
+    <value>Error: Cannot get light level data</value>
+  </data>
+  <data name="Status_Exception" xml:space="preserve">
+    <value>Exception: {0}</value>
+  </data>
+  <data name="Status_ErrorSelectCamera" xml:space="preserve">
+    <value>Error: Please select a camera device first</value>
+  </data>
+  <data name="Status_ErrorAdminRequired" xml:space="preserve">
+    <value>Error: Administrator privileges required to control camera</value>
+  </data>
+  <data name="Status_RunAsAdmin" xml:space="preserve">
+    <value>Please run this application as administrator</value>
+  </data>
+  <data name="Status_TogglingCamera" xml:space="preserve">
+    <value>Toggling camera status: {0}</value>
+  </data>
+  <data name="Status_CameraDisabledPreviewStopped" xml:space="preserve">
+    <value>Camera disabled, video preview stopped</value>
+  </data>
+  <data name="Status_CameraStateChanged" xml:space="preserve">
+    <value>Camera {0} {1}</value>
+  </data>
+  <data name="Status_CameraEnabled" xml:space="preserve">
+    <value>enabled</value>
+  </data>
+  <data name="Status_CameraDisabled" xml:space="preserve">
+    <value>disabled</value>
+  </data>
+  <data name="Status_OperationFailed" xml:space="preserve">
+    <value>Operation failed: Please check device permissions and status</value>
+  </data>
+  <data name="Status_EnumeratingCameras" xml:space="preserve">
+    <value>Enumerating camera devices...</value>
+  </data>
+  <data name="Status_EnumerationComplete" xml:space="preserve">
+    <value>Enumeration complete, found {0} devices</value>
+  </data>
+  <data name="Status_NoCamerasFound" xml:space="preserve">
+    <value>⚠ No available camera devices found</value>
+  </data>
+  <data name="Status_PossibleReasons" xml:space="preserve">
+    <value>  Possible reasons:</value>
+  </data>
+  <data name="Status_Reason1" xml:space="preserve">
+    <value>  1. No camera devices in the system</value>
+  </data>
+  <data name="Status_Reason2" xml:space="preserve">
+    <value>  2. Camera drivers not properly installed</value>
+  </data>
+  <data name="Status_DeviceList" xml:space="preserve">
+    <value>Device list:</value>
+  </data>
+  <data name="Status_DeviceItem" xml:space="preserve">
+    <value>  - {0} ({1})</value>
+  </data>
+  <data name="Status_SelectedConfiguredCamera" xml:space="preserve">
+    <value>Selected configured camera: {0}</value>
+  </data>
+  <data name="Status_SelectedIntegratedCamera" xml:space="preserve">
+    <value>Auto-selected integrated camera: {0}</value>
+  </data>
+  <data name="Status_CameraListLoaded" xml:space="preserve">
+    <value>✓ Camera list loaded successfully</value>
+  </data>
+  <data name="Status_LoadCameraListFailed" xml:space="preserve">
+    <value>✗ Failed to load camera list: {0}</value>
+  </data>
+  <data name="Status_ExceptionType" xml:space="preserve">
+    <value>  Exception type: {0}</value>
+  </data>
+  <data name="Status_InnerException" xml:space="preserve">
+    <value>  Inner exception: {0}</value>
+  </data>
+  <data name="Status_StackTrace" xml:space="preserve">
+    <value>  Stack trace: {0}</value>
+  </data>
+  <data name="Status_RefreshingCameraList" xml:space="preserve">
+    <value>Refreshing camera list...</value>
+  </data>
+  <data name="Status_CameraListRefreshed" xml:space="preserve">
+    <value>Camera list refreshed</value>
+  </data>
+  <data name="Status_LightSensorStateChanged" xml:space="preserve">
+    <value>Ambient light sensor {0}</value>
+  </data>
+  <data name="Status_Enabled" xml:space="preserve">
+    <value>enabled</value>
+  </data>
+  <data name="Status_Disabled" xml:space="preserve">
+    <value>disabled</value>
+  </data>
+  <data name="Status_LogCleared" xml:space="preserve">
+    <value>Status log cleared</value>
+  </data>
+  <data name="Status_SavingConfig" xml:space="preserve">
+    <value>Saving configuration...</value>
+  </data>
+  <data name="Status_ConfigSaved" xml:space="preserve">
+    <value>Configuration saved successfully</value>
+  </data>
+  <data name="Status_StartPreview" xml:space="preserve">
+    <value>Started preview for camera: {0}</value>
+  </data>
+  <data name="Status_StopPreview" xml:space="preserve">
+    <value>Stopped preview for camera: {0}</value>
+  </data>
+  <data name="Status_ErrorSelectCameraForPreview" xml:space="preserve">
+    <value>Error: Please select a camera device to preview</value>
+  </data>
+  <data name="UI_Button_StartPreview" xml:space="preserve">
+    <value>Start Video Preview</value>
+  </data>
+  <data name="UI_Button_StopPreview" xml:space="preserve">
+    <value>Stop Video Preview</value>
+  </data>
+  <data name="UI_Button_EnableCamera" xml:space="preserve">
+    <value>Enable Camera</value>
+  </data>
+  <data name="UI_Button_DisableCamera" xml:space="preserve">
+    <value>Disable Camera</value>
+  </data>
+  <data name="Message_ConfirmResetConfig" xml:space="preserve">
+    <value>Are you sure you want to reset the configuration to default values?
+
+This will overwrite all current configuration settings.</value>
+  </data>
+  <data name="Message_ConfirmResetConfigTitle" xml:space="preserve">
+    <value>Confirm Reset Configuration</value>
+  </data>
+  <data name="Message_ConfirmUninstallService" xml:space="preserve">
+    <value>Are you sure you want to uninstall the Windows service?
+
+The service will be completely removed from the system after uninstallation.</value>
+  </data>
+  <data name="Message_ConfirmUninstallServiceTitle" xml:space="preserve">
+    <value>Confirm Uninstall Service</value>
+  </data>
+  <data name="Status_ResettingConfig" xml:space="preserve">
+    <value>Resetting configuration...</value>
+  </data>
+  <data name="Status_ConfigReset" xml:space="preserve">
+    <value>Configuration has been reset to default values</value>
+  </data>
+  <data name="Status_InstallingService" xml:space="preserve">
+    <value>Installing Windows service...</value>
+  </data>
+  <data name="Status_ServiceInstalled" xml:space="preserve">
+    <value>Service installed successfully!</value>
+  </data>
+  <data name="Status_ServiceInstallFailed" xml:space="preserve">
+    <value>Service installation failed: {0}</value>
+  </data>
+  <data name="Status_Details" xml:space="preserve">
+    <value>Details: {0}</value>
+  </data>
+  <data name="Status_UninstallingService" xml:space="preserve">
+    <value>Uninstalling Windows service...</value>
+  </data>
+  <data name="Status_ServiceUninstalled" xml:space="preserve">
+    <value>Service uninstalled successfully!</value>
+  </data>
+  <data name="Status_ServiceUninstallFailed" xml:space="preserve">
+    <value>Service uninstallation failed: {0}</value>
+  </data>
+  <data name="Status_StartingService" xml:space="preserve">
+    <value>Starting Windows service...</value>
+  </data>
+  <data name="Status_ServiceStarted" xml:space="preserve">
+    <value>Service started successfully!</value>
+  </data>
+  <data name="Status_ServiceStartFailed" xml:space="preserve">
+    <value>Service start failed</value>
+  </data>
+  <data name="Status_StoppingService" xml:space="preserve">
+    <value>Stopping Windows service...</value>
+  </data>
+  <data name="Status_ServiceStopped" xml:space="preserve">
+    <value>Service stopped successfully!</value>
+  </data>
+  <data name="Status_ServiceStopFailed" xml:space="preserve">
+    <value>Service stop failed</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gongzhonghao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\gongzhonghao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pics\preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status_CameraStatusNoDevice" xml:space="preserve">
+    <value>Status: No device found</value>
+  </data>
+  <data name="Status_CameraStatusLoadFailed" xml:space="preserve">
+    <value>Status: Load failed</value>
+  </data>
+  <data name="Status_CameraStatusNotSelected" xml:space="preserve">
+    <value>Status: Not selected</value>
+  </data>
+  <data name="Status_CameraStatusQueryFailed" xml:space="preserve">
+    <value>Status: Query failed</value>
+  </data>
+  <data name="Status_QueryCameraStatusFailed" xml:space="preserve">
+    <value>Failed to query camera status: {0}</value>
+  </data>
+  <data name="Status_ServiceNotInstalled" xml:space="preserve">
+    <value>Not installed</value>
+  </data>
+  <data name="Status_ServiceRunning" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="Status_ServiceStopped_State" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="Status_ServiceStartPending" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="Status_ServiceStopPending" xml:space="preserve">
+    <value>Stopping</value>
+  </data>
+  <data name="Status_ServicePaused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="Status_ServiceUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Status_ServiceStatusLabel" xml:space="preserve">
+    <value>Service Status: {0}</value>
+  </data>
+  <data name="Status_ServiceAdminRequired" xml:space="preserve">
+    <value> (Administrator privileges required)</value>
+  </data>
+  <data name="Status_ServiceStatusQueryFailed" xml:space="preserve">
+    <value>Service Status: Query failed</value>
+  </data>
+  <data name="Status_QueryServiceStatusFailed" xml:space="preserve">
+    <value>Failed to query service status: {0}</value>
+  </data>
+  <data name="Status_CameraStatusLabel" xml:space="preserve">
+    <value>Status: {0}</value>
+  </data>
+  <data name="UI_CameraList_Integrated" xml:space="preserve">
+    <value>[Integrated] {0}</value>
+  </data>
+  <data name="UI_CameraList_NoCameraFound" xml:space="preserve">
+    <value>No camera device found</value>
+  </data>
+  <data name="UI_CameraList_LoadFailed" xml:space="preserve">
+    <value>Load failed</value>
+  </data>
+  <data name="Status_ExportingConfig" xml:space="preserve">
+    <value>Exporting configuration...</value>
+  </data>
+  <data name="Status_ConfigExported" xml:space="preserve">
+    <value>Configuration exported to: {0}</value>
+  </data>
+  <data name="Status_ExportConfigFailed" xml:space="preserve">
+    <value>Failed to export configuration: {0}</value>
+  </data>
+  <data name="Status_ImportingConfig" xml:space="preserve">
+    <value>Importing configuration...</value>
+  </data>
+  <data name="Status_ImportFailed_InvalidFormat" xml:space="preserve">
+    <value>Import failed: Invalid configuration file format</value>
+  </data>
+  <data name="Status_ConfigImported" xml:space="preserve">
+    <value>Configuration imported from file: {0}</value>
+  </data>
+  <data name="Status_ImportConfigFailed" xml:space="preserve">
+    <value>Failed to import configuration: {0}</value>
+  </data>
+  <data name="Status_OperationHistoryHeader" xml:space="preserve">
+    <value>=== Operation History ===</value>
+  </data>
+  <data name="Status_NoRecentOperations" xml:space="preserve">
+    <value>No recent operation records found</value>
+  </data>
+  <data name="Status_RecentOperations" xml:space="preserve">
+    <value>Operation records in the last 24 hours ({0} entries):</value>
+  </data>
+  <data name="Status_OperationHistoryFooter" xml:space="preserve">
+    <value>=== End of History ===</value>
+  </data>
+  <data name="Status_ReadHistoryFailed" xml:space="preserve">
+    <value>Failed to read operation history: {0}</value>
+  </data>
+  <data name="Status_SystemStatusHeader" xml:space="preserve">
+    <value>=== System Status Report ===</value>
+  </data>
+  <data name="Status_ServiceStatusSimplified" xml:space="preserve">
+    <value>Service Status: Simplified version</value>
+  </data>
+  <data name="Status_AdminRights" xml:space="preserve">
+    <value>Administrator privileges: {0}</value>
+  </data>
+  <data name="Status_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Status_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Status_AvailableCameras" xml:space="preserve">
+    <value>Available cameras: {0}</value>
+  </data>
+  <data name="Status_IntegratedCameras" xml:space="preserve">
+    <value>  Integrated cameras: {0}</value>
+  </data>
+  <data name="Status_ExternalCameras" xml:space="preserve">
+    <value>  External cameras: {0}</value>
+  </data>
+  <data name="Status_CurrentSelection" xml:space="preserve">
+    <value>  Current selection: {0} ({1})</value>
+  </data>
+  <data name="Status_LightSensor" xml:space="preserve">
+    <value>Light sensor: {0}</value>
+  </data>
+  <data name="Status_Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Status_NotAvailable" xml:space="preserve">
+    <value>Not available</value>
+  </data>
+  <data name="Status_WorkingMode" xml:space="preserve">
+    <value>Working mode: Lock screen monitoring (disable non-IR cameras on lock, enable on unlock)</value>
+  </data>
+  <data name="Status_AmbientLightSensor" xml:space="preserve">
+    <value>Ambient light sensor: {0}</value>
+  </data>
+  <data name="Status_LightThreshold" xml:space="preserve">
+    <value>  Light threshold: {0} lux</value>
+  </data>
+  <data name="Status_SystemStatusFooter" xml:space="preserve">
+    <value>=== End of Status Report ===</value>
+  </data>
+  <data name="Status_GenerateStatusReportFailed" xml:space="preserve">
+    <value>Failed to generate system status report: {0}</value>
+  </data>
+  <data name="Status_RefreshServiceStatusFailed" xml:space="preserve">
+    <value>Failed to refresh service status: {0}</value>
+  </data>
+  <data name="Status_InitUIFailed" xml:space="preserve">
+    <value>Failed to initialize UI: {0}</value>
+  </data>
+  <data name="Status_UpdateConfigUIFailed" xml:space="preserve">
+    <value>Failed to update configuration UI: {0}</value>
+  </data>
+  <data name="Dialog_ExportConfig_Title" xml:space="preserve">
+    <value>Export Configuration File</value>
+  </data>
+  <data name="Dialog_ExportConfig_Filter" xml:space="preserve">
+    <value>JSON Files (*.json)|*.json|All Files (*.*)|*.*</value>
+  </data>
+  <data name="Dialog_ImportConfig_Title" xml:space="preserve">
+    <value>Import Configuration File</value>
+  </data>
+  <data name="Dialog_ImportConfig_Filter" xml:space="preserve">
+    <value>JSON Files (*.json)|*.json|All Files (*.*)|*.*</value>
+  </data>
+  <data name="EventLog_Level_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="EventLog_Level_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="EventLog_Level_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Status_TestingSCCommand" xml:space="preserve">
+    <value>Testing SC command description syntax...</value>
+  </data>
+  <data name="Status_TestResult" xml:space="preserve">
+    <value>Test result:</value>
+  </data>
+  <data name="Status_VerifyingServiceDescription" xml:space="preserve">
+    <value>Verifying current service description:</value>
+  </data>
+  <data name="Status_CurrentDescription" xml:space="preserve">
+    <value>Current description: {0}</value>
+  </data>
+  <data name="Status_NoDescriptionSet" xml:space="preserve">
+    <value>No description set</value>
+  </data>
+  <data name="Status_ServiceNotInstalledOrQueryFailed" xml:space="preserve">
+    <value>Service not installed or query failed</value>
+  </data>
+  <data name="Status_QueryDescriptionFailed" xml:space="preserve">
+    <value>Failed to query description: {0}</value>
+  </data>
+  <data name="Status_PreviewStarted" xml:space="preserve">
+    <value>Started preview for camera: {0}</value>
+  </data>
+  <data name="Status_InitVideoPreviewFailed" xml:space="preserve">
+    <value>Failed to initialize video preview: {0}</value>
+  </data>
+  <data name="Status_StopVideoPreviewException" xml:space="preserve">
+    <value>Exception while stopping video preview: {0}</value>
+  </data>
+  <data name="Message_ApplicationStartupFailed" xml:space="preserve">
+    <value>Application startup failed:
+{0}</value>
+  </data>
+  <data name="Message_ApplicationStartupFailedTitle" xml:space="preserve">
+    <value>Startup Error</value>
+  </data>
+  <data name="Log_EventLogger_InitSuccess" xml:space="preserve">
+    <value>Event logger initialized successfully</value>
+  </data>
+  <data name="Log_EventLogger_InitFailed" xml:space="preserve">
+    <value>Unable to initialize Windows event log, using fallback file log. Error: {0}</value>
+  </data>
+  <data name="Log_EventLogger_ExceptionDetails" xml:space="preserve">
+    <value>{0}
+Exception details: {1}</value>
+  </data>
+  <data name="Log_EventLogger_EventLogWriteFailed" xml:space="preserve">
+    <value>{0}
+Note: Windows event log write failed, switched to file log. Error: {1}</value>
+  </data>
+  <data name="Log_EventLogger_FileWriteFailed" xml:space="preserve">
+    <value>Log write failed - EventId: {0}, Message: {1}, Error: {2}</value>
+  </data>
+  <data name="Log_Service_Starting" xml:space="preserve">
+    <value>Service starting...</value>
+  </data>
+  <data name="Log_Service_ConfigError" xml:space="preserve">
+    <value>Configuration file error, no available camera device found</value>
+  </data>
+  <data name="Log_Service_InsufficientPermissions" xml:space="preserve">
+    <value>Service requires administrator privileges to control camera devices</value>
+  </data>
+  <data name="Log_Service_PermissionsRequired" xml:space="preserve">
+    <value>Administrator privileges required</value>
+  </data>
+  <data name="Log_Service_StartSuccess" xml:space="preserve">
+    <value>Service started successfully, camera device ID: {0}</value>
+  </data>
+  <data name="Log_Service_StartFailed" xml:space="preserve">
+    <value>Service start failed: {0}</value>
+  </data>
+  <data name="Log_Service_Stopping" xml:space="preserve">
+    <value>Service stopping...</value>
+  </data>
+  <data name="Log_Service_Stopped" xml:space="preserve">
+    <value>Service stopped</value>
+  </data>
+  <data name="Log_Service_SessionChange" xml:space="preserve">
+    <value>Session change detected: {0}</value>
+  </data>
+  <data name="Log_Service_SessionChangeException" xml:space="preserve">
+    <value>Exception occurred while handling session change: {0}</value>
+  </data>
+  <data name="Log_Service_HandleLockScreen" xml:space="preserve">
+    <value>Handling lock screen event</value>
+  </data>
+  <data name="Log_Service_LightSufficient" xml:space="preserve">
+    <value>Sufficient light ({0:F1} lux), camera will not be disabled</value>
+  </data>
+  <data name="Log_Service_CameraDisabled" xml:space="preserve">
+    <value>Camera disabled (screen locked)</value>
+  </data>
+  <data name="Log_Service_CameraDisableFailed" xml:space="preserve">
+    <value>Failed to disable camera</value>
+  </data>
+  <data name="Log_Service_HandleLockException" xml:space="preserve">
+    <value>Exception occurred while handling lock screen event: {0}</value>
+  </data>
+  <data name="Log_Service_HandleUnlock" xml:space="preserve">
+    <value>Handling unlock event</value>
+  </data>
+  <data name="Log_Service_CameraEnabled" xml:space="preserve">
+    <value>Camera enabled (screen unlocked)</value>
+  </data>
+  <data name="Log_Service_CameraEnableFailed" xml:space="preserve">
+    <value>Failed to enable camera</value>
+  </data>
+  <data name="Log_Service_HandleUnlockException" xml:space="preserve">
+    <value>Exception occurred while handling unlock event: {0}</value>
+  </data>
+  <data name="Log_ServiceManager_AdminRequired" xml:space="preserve">
+    <value>Administrator privileges required to register service. Please run the program as administrator.</value>
+  </data>
+  <data name="Log_ServiceManager_AlreadyInstalled" xml:space="preserve">
+    <value>Service is already installed. Please uninstall the existing service before reinstalling.</value>
+  </data>
+  <data name="Log_ServiceManager_CannotDetermineExePath" xml:space="preserve">
+    <value>Cannot determine current executable file path.</value>
+  </data>
+  <data name="Log_ServiceManager_InstallFailed" xml:space="preserve">
+    <value>Service registration failed: {0}
+
+Possible solutions:
+• Ensure running as administrator
+• Check if Windows Service Manager is accessible
+• Ensure .NET runtime is properly installed
+• Check if antivirus software is blocking the operation</value>
+  </data>
+  <data name="Log_ServiceManager_UninstallAdminRequired" xml:space="preserve">
+    <value>Administrator privileges required to uninstall service. Please run the program as administrator.</value>
+  </data>
+  <data name="Log_ServiceManager_NotInstalled" xml:space="preserve">
+    <value>Service is not installed, no need to uninstall.</value>
+  </data>
+  <data name="Log_ServiceManager_UninstallFailed" xml:space="preserve">
+    <value>Service uninstallation failed: {0}
+
+Possible solutions:
+• Ensure running as administrator
+• Stop the service manually first
+• Delete service manually through Service Manager
+• Restart computer and try again</value>
+  </data>
+  <data name="Log_ServiceManager_StartNotInstalled" xml:space="preserve">
+    <value>Service is not installed, cannot start. Please register the service first.</value>
+  </data>
+  <data name="Log_ServiceManager_AlreadyRunning" xml:space="preserve">
+    <value>Service is already running.</value>
+  </data>
+  <data name="Log_ServiceManager_StartPending" xml:space="preserve">
+    <value>Service is starting, please wait...</value>
+  </data>
+  <data name="Log_ServiceManager_StartSuccess" xml:space="preserve">
+    <value>Service started successfully!</value>
+  </data>
+  <data name="Log_ServiceManager_StartTimeout" xml:space="preserve">
+    <value>Service start timeout. Service may still be starting, please check service status later.</value>
+  </data>
+  <data name="Log_ServiceManager_StartFailed" xml:space="preserve">
+    <value>Service start failed: {0}
+
+Possible solutions:
+• Check Windows Event Log for detailed error information
+• Ensure service configuration is correct
+• Restart computer and try again</value>
+  </data>
+  <data name="Log_ServiceManager_StopNotInstalled" xml:space="preserve">
+    <value>Service is not installed.</value>
+  </data>
+  <data name="Log_ServiceManager_AlreadyStopped" xml:space="preserve">
+    <value>Service is already stopped.</value>
+  </data>
+  <data name="Log_ServiceManager_StopPending" xml:space="preserve">
+    <value>Service is stopping, please wait...</value>
+  </data>
+  <data name="Log_ServiceManager_CannotStop" xml:space="preserve">
+    <value>Service cannot be stopped currently</value>
+  </data>
+  <data name="Log_ServiceManager_StopSuccess" xml:space="preserve">
+    <value>Service stopped successfully!</value>
+  </data>
+  <data name="Log_ServiceManager_StopTimeout" xml:space="preserve">
+    <value>Service stop timeout. Service may still be stopping, please check service status later.</value>
+  </data>
+  <data name="Log_ServiceManager_StopFailed" xml:space="preserve">
+    <value>Service stop failed: {0}
+Possible solutions:
+• Wait for service to stop naturally
+• End service process through Task Manager
+• Restart computer</value>
+  </data>
+  <data name="Log_ServiceManager_RestartStopFailed" xml:space="preserve">
+    <value>Restart failed: Unable to stop service. {0}</value>
+  </data>
+  <data name="Log_ServiceManager_RestartStartFailed" xml:space="preserve">
+    <value>Restart failed: Unable to start service. {0}</value>
+  </data>
+  <data name="Log_ServiceManager_RestartSuccess" xml:space="preserve">
+    <value>Service restarted successfully!</value>
+  </data>
+  <data name="Log_ServiceManager_RestartFailed" xml:space="preserve">
+    <value>Service restart failed: {0}</value>
+  </data>
+  <data name="Log_Exception_UnhandledFatal" xml:space="preserve">
+    <value>Fatal unhandled exception in application domain, program will terminate</value>
+  </data>
+  <data name="Log_Exception_Unhandled" xml:space="preserve">
+    <value>Unhandled exception in application domain</value>
+  </data>
+  <data name="Log_Exception_UnobservedTask" xml:space="preserve">
+    <value>Unobserved task exception detected</value>
+  </data>
+  <data name="Log_Exception_ProgramTerminating" xml:space="preserve">
+    <value>Program will terminate due to unhandled exception: {0}</value>
+  </data>
+  <data name="Log_Exception_HandlerFailed" xml:space="preserve">
+    <value>Exception occurred in global exception handler: {0}</value>
+  </data>
+  <data name="Log_Exception_TaskHandlerFailed" xml:space="preserve">
+    <value>Exception occurred in task exception handler: {0}</value>
+  </data>
+  <data name="Log_Exception_OperationFailed" xml:space="preserve">
+    <value>Exception occurred while executing operation '{0}'</value>
+  </data>
+  <data name="Log_AdvancedInstaller_AdminRequired" xml:space="preserve">
+    <value>Administrator privileges required to install service.</value>
+  </data>
+  <data name="Log_AdvancedInstaller_FileNotFound" xml:space="preserve">
+    <value>Service executable file does not exist: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_AlreadyInstalled" xml:space="preserve">
+    <value>Service is already installed.</value>
+  </data>
+  <data name="Log_AdvancedInstaller_InstallSuccess" xml:space="preserve">
+    <value>Service installed successfully!
+
+Service information:
+• Service name: {0}
+• Display name: {1}
+• Service path: {2}
+• Startup type: Automatic
+• Run account: LocalSystem
+
+Important: Do not move the current folder, otherwise the service will not work properly.</value>
+  </data>
+  <data name="Log_AdvancedInstaller_InstallFailed" xml:space="preserve">
+    <value>Service installation failed: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_UninstallAdminRequired" xml:space="preserve">
+    <value>Administrator privileges required to uninstall service.</value>
+  </data>
+  <data name="Log_AdvancedInstaller_NotInstalled" xml:space="preserve">
+    <value>Service is not installed.</value>
+  </data>
+  <data name="Log_AdvancedInstaller_UninstallSuccess" xml:space="preserve">
+    <value>Service uninstalled successfully!
+
+Service has been completely removed from the system.
+You can now safely move or delete the program files.</value>
+  </data>
+  <data name="Log_AdvancedInstaller_UninstallFailed" xml:space="preserve">
+    <value>Service uninstallation failed: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ScCommandFailed" xml:space="preserve">
+    <value>SC command execution failed (exit code: {0}): {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ScCommandException" xml:space="preserve">
+    <value>Exception occurred while executing SC command: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_CannotStartProcess" xml:space="preserve">
+    <value>Cannot start SC command process</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ScCommandSuccess" xml:space="preserve">
+    <value>SC command executed successfully</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ValidationFailed" xml:space="preserve">
+    <value>Service not installed</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ValidationSuccess" xml:space="preserve">
+    <value>Service installation validation completed:
+
+{0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ValidationException" xml:space="preserve">
+    <value>Exception occurred while validating service installation: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ServiceStatus" xml:space="preserve">
+    <value>Service status: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartupType" xml:space="preserve">
+    <value>Startup type: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_RunAccount" xml:space="preserve">
+    <value>Run account: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ServicePath" xml:space="preserve">
+    <value>Service path: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_FileExists" xml:space="preserve">
+    <value>✓ Service executable file exists</value>
+  </data>
+  <data name="Log_AdvancedInstaller_FileNotExists" xml:space="preserve">
+    <value>✗ Service executable file does not exist or path is invalid</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusRunning" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusStopped" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusPaused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusStartPending" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusStopPending" xml:space="preserve">
+    <value>Stopping</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusPausePending" xml:space="preserve">
+    <value>Pausing</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusContinuePending" xml:space="preserve">
+    <value>Resuming</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StatusUnknown" xml:space="preserve">
+    <value>Unknown status</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartTypeAutomatic" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartTypeManual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartTypeDisabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="Log_AdvancedInstaller_StartTypeUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Service_DisplayName" xml:space="preserve">
+    <value>Auto Camera Control Service</value>
+  </data>
+  <data name="Service_Description" xml:space="preserve">
+    <value>Automatically controls camera enable/disable status based on screen lock state</value>
+  </data>
+  <data name="Log_ServiceManager_ExePathEmpty" xml:space="preserve">
+    <value>Executable file path is empty.</value>
+  </data>
+  <data name="Log_ServiceManager_ExeNotFound" xml:space="preserve">
+    <value>Executable file does not exist: {0}</value>
+  </data>
+  <data name="Log_ServiceManager_CannotReadExe" xml:space="preserve">
+    <value>Cannot read executable file: {0}</value>
+  </data>
+  <data name="Log_ServiceManager_InvalidPathChars" xml:space="preserve">
+    <value>Executable file path contains invalid characters.</value>
+  </data>
+  <data name="Log_ServiceManager_PathTooLong" xml:space="preserve">
+    <value>Executable file path is too long (exceeds 260 characters).</value>
+  </data>
+  <data name="Log_ServiceManager_PathValidationPassed" xml:space="preserve">
+    <value>Executable file path validation passed.</value>
+  </data>
+  <data name="Log_ServiceManager_PathValidationException" xml:space="preserve">
+    <value>Exception occurred while validating executable file path: {0}</value>
+  </data>
+  <data name="Log_ServiceManager_UnsupportedPlatform" xml:space="preserve">
+    <value>Unsupported operating system platform</value>
+  </data>
+  <data name="Log_ServiceManager_RequiresVistaOrHigher" xml:space="preserve">
+    <value>Requires Windows Vista or higher</value>
+  </data>
+  <data name="Log_ServiceManager_NetVersionWarning" xml:space="preserve">
+    <value>Current .NET version: {0}, recommend using .NET 4.0 or higher</value>
+  </data>
+  <data name="Log_ServiceManager_NotRunningAsAdminWarning" xml:space="preserve">
+    <value>Not running with administrator privileges, service installation/uninstallation requires administrator privileges</value>
+  </data>
+  <data name="Log_ServiceManager_CannotAccessSCM" xml:space="preserve">
+    <value>Cannot access Service Control Manager, may require administrator privileges</value>
+  </data>
+  <data name="Log_ServiceManager_CannotAccessEventLog" xml:space="preserve">
+    <value>Cannot access Windows Event Log, some features may be limited</value>
+  </data>
+  <data name="Log_ServiceManager_EnvironmentCheckComplete" xml:space="preserve">
+    <value>System environment check complete</value>
+  </data>
+  <data name="Log_ServiceManager_IssuesFound" xml:space="preserve">
+    <value>
+
+Issues found:
+• </value>
+  </data>
+  <data name="Log_ServiceManager_WarningsFound" xml:space="preserve">
+    <value>
+
+Warnings:
+• </value>
+  </data>
+  <data name="Log_ServiceManager_EnvironmentOK" xml:space="preserve">
+    <value>
+
+✓ System environment meets requirements</value>
+  </data>
+  <data name="Log_ServiceManager_EnvironmentCheckException" xml:space="preserve">
+    <value>Exception occurred while checking system environment: {0}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_UnknownValue" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Log_AdvancedInstaller_ServiceNotInstalledCannotTest" xml:space="preserve">
+    <value>Service not installed, cannot test</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestMethod1" xml:space="preserve">
+    <value>Method 1 (standard syntax): {0} - {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestMethod2" xml:space="preserve">
+    <value>Method 2 (no quotes): {0} - {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestMethod3" xml:space="preserve">
+    <value>Method 3 (config command): {0} - {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestMethodException" xml:space="preserve">
+    <value>Method {0} exception: {1}</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Log_AdvancedInstaller_TestFailed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="Log_Camera_EnumeratingDevices" xml:space="preserve">
+    <value>Enumerating camera devices</value>
+  </data>
+  <data name="Log_Camera_EnumerationError" xml:space="preserve">
+    <value>Error enumerating camera devices: {0}</value>
+  </data>
+  <data name="Log_Camera_AlreadyEnabled" xml:space="preserve">
+    <value>Camera is already enabled, no action needed: {0}</value>
+  </data>
+  <data name="Log_Camera_AlreadyDisabled" xml:space="preserve">
+    <value>Camera is already disabled, no action needed: {0}</value>
+  </data>
+  <data name="Log_Camera_AdminRequired" xml:space="preserve">
+    <value>Administrator privileges required</value>
+  </data>
+  <data name="Log_Camera_EmptyDeviceId" xml:space="preserve">
+    <value>Device ID is empty</value>
+  </data>
+  <data name="Log_Camera_ActionEnable" xml:space="preserve">
+    <value>enable</value>
+  </data>
+  <data name="Log_Camera_ActionDisable" xml:space="preserve">
+    <value>disable</value>
+  </data>
+  <data name="Log_Camera_ActionSuccess" xml:space="preserve">
+    <value>Camera {0} successful: {1}</value>
+  </data>
+  <data name="Log_Camera_CommandFailedWithCode" xml:space="preserve">
+    <value>Device command execution failed, exit code: {0}, device ID: {1}</value>
+  </data>
+  <data name="Log_Camera_CommandFailed" xml:space="preserve">
+    <value>Device command execution failed: {0}</value>
+  </data>
+  <data name="Log_Config_SavedByUser" xml:space="preserve">
+    <value>User saved configuration via UI</value>
+  </data>
+  <data name="Log_Config_SaveFailed" xml:space="preserve">
+    <value>Failed to save configuration</value>
+  </data>
+  <data name="Log_Config_ResetByUser" xml:space="preserve">
+    <value>User reset configuration via UI</value>
+  </data>
+  <data name="Log_Config_ResetFailed" xml:space="preserve">
+    <value>Failed to reset configuration</value>
+  </data>
+  <data name="Log_Config_ExportedByUser" xml:space="preserve">
+    <value>User exported configuration to: {0}</value>
+  </data>
+  <data name="Log_Config_ExportFailed" xml:space="preserve">
+    <value>Failed to export configuration</value>
+  </data>
+  <data name="Log_Config_ImportedByUser" xml:space="preserve">
+    <value>User imported configuration from file: {0}</value>
+  </data>
+  <data name="Log_Config_ImportFailed" xml:space="preserve">
+    <value>Failed to import configuration</value>
+  </data>
+  <data name="Log_Config_LoadFailed" xml:space="preserve">
+    <value>Failed to load configuration: {0}</value>
+  </data>
+  <data name="Log_Config_SaveFailedWithError" xml:space="preserve">
+    <value>Failed to save configuration: {0}</value>
+  </data>
+</root>
